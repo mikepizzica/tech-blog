@@ -50,4 +50,4 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 https://mikepizzica.github.io/tech-blog/
 
 ## Screenshot
-![Screenshot of tech blog](path to screenshot)
+![Screenshot of tech blog](./assets/images/screenshot.png))
