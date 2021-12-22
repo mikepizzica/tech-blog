@@ -82,6 +82,33 @@ nav > a {
   color: #351616
 }
 
+/* styling for post page */
+#post-comments {
+  border: #351616 solid;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+#post-comments-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #351616;
+  padding: 20px 15px;
+}
+
+#post-comments-content {
+  width: 100%;
+  padding: 5px 15px 25px 15px;
+}
+
+#post-comments-content > p {
+  color: #351616
+}
+
+
 /* styling for dashboard page */
 
 #dashboard-existing {
@@ -96,6 +123,7 @@ nav > a {
 }
 
 #dashboard-existing-buttons {
+
 }
 
 /* useless code below i believe i can delete

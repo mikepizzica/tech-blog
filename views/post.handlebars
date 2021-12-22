@@ -1,4 +1,4 @@
-<div class="text-center">
+{{!-- <div class="text-center">
   <h2>{{title}}</h2>
   <p>{{content}}</p>
   <p>Created by {{user.name}} on {{format_date date_created}}</p>
@@ -10,7 +10,34 @@
       <p>Created by {{user.name}} on {{format_date date_created}}</p>
       {{/each}}
     </div>
-  </section>
+  </section> --}}
+
+  <div id="post">
+    <div id="post-header">
+      <a>{{title}}</a>
+      <p>Posted by {{user.name}} on {{format_date date_created}}</p>
+    </div>
+    <div class="break"></div>
+    <div id="post-content">
+      <p>
+        {{content}}
+      </p>
+    </div>
+  </div>
+
+  <div>
+    {{#each comments}}
+    <div id="post-comments">
+      <div id="post-comments-header">
+        <a></a>
+      </div>
+      <div id="post-comments-content">
+      <p>{{content}}</p>
+      <p>-{{user.name}}, {{format_date date_created}}</p>
+      </div>
+    </div>
+    {{/each}}
+  </div>
 
   <form class="form new-comment-form">
     <div class="form-group">
@@ -22,6 +49,6 @@
     </div>
   </form>
 
-</div>
+{{!-- </div> --}}
 
 <script src="/js/comment.js"></script>
