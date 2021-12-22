@@ -82,6 +82,22 @@ nav > a {
   color: #351616
 }
 
+/* styling for dashboard page */
+
+#dashboard-existing {
+  padding-left: 16px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#dashboard-existing-title {
+  display: flex;
+  width: 100%;
+}
+
+#dashboard-existing-buttons {
+}
+
 /* useless code below i believe i can delete
 .project:not(:last-child) {
   
