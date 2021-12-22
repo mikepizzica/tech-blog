@@ -1,3 +1,4 @@
+/* styling for the header */
 header {
   background-color: #351616;
   padding-bottom: 30px;
@@ -44,7 +45,42 @@ nav > a {
   font-weight: bolder;
 }
 
+/* styling for the homepage */
+#post {
+  border: #351616 solid;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
 
+#post-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #351616;
+  padding: 10px 15px;
+}
+
+#post-header > a {
+  color: rgb(250, 250, 250);
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#post-header > p {
+  color: rgb(250, 250, 250);
+  font-size: 12px;
+}
+
+#post-content {
+  width: 100%;
+  padding: 5px 15px 25px 15px;
+}
+
+#post-content > p {
+  color: #351616
+}
 
 /* useless code below i believe i can delete
 .project:not(:last-child) {
