@@ -82,7 +82,7 @@ nav > a {
   color: #351616
 }
 
-/* styling for post page */
+/* styling for an individual post's page */
 #post-comments {
   border: #351616 solid;
   display: flex;
